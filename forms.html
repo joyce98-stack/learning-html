@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=Honk:MORF@15&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+   
+   
+   <style>
+        body{
+            background-color: beige;
+            font-family: "Roboto Condensed", sans-serif;
+            
+        }
+        form{
+            width: 50%;
+            margin:auto;
+            padding: 10px 20px 10px 20px;
+            border: 2px solid rgb(75, 76, 78);
+            background-color: beige;
+        }
+        .lll{
+            width: 100%;
+            display: block;
+        }
+
+        .inp{
+            width: 75%;
+            padding: 5px 10px 5px 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- form inputs text,email,password,phone -->
+    <form action="">
+
+        <label class="lll"      for="full_name">first and last name</label>
+        <input class="inp" type="text" name="full_name" id="full_name" placeholder="Enter your name">
+         
+        <br>
+        <label class="lll" for="password">password</label>
+        <input class="inp" type="text" name="password" id="password" placeholder="*******" required> 
+         
+         <br>
+
+        <label class="lll" for="email">Email</label>
+        <input class="inp" type="email" name="email" id="email" placeholder="stacyjoyce@gmail.com" required>
+        
+        <br>
+        <label class="lll" for="phone">Phone</label>
+        <input class="inp" type="tel" name="phone" id="phone" placeholder="0712345678">
+         
+        <br>
+        <label class="lll" for="dob">Date of Birth</label>
+        <input class="inp" type="date" name="dob" id="dob" required min="1940-01-01 " max="2018-12-31">
+
+        <br>
+        <label for="gender">Gender</label>
+         
+        <br>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <br>
+
+
+        <input type="radio" name="gender" id="female" value="Female">
+        <label for="female">Female</label>
+
+        <br>
+        <label for="soccer">Select your fav Soccer</label>
+
+        <br>
+
+        <input type="checkbox" name="volleyball" id="volleyball" value="volleyball">
+        <label for="volleyball">Volleyball</label>
+ 
+        <br>
+        <input type="checkbox" name="soccer" id="tennis" value="tennis">
+        <label for="tennis">Tennis</label>
+
+        <br>
+
+        <label for="county">County</label>
+            <select  class="inp" name="county" id="county">
+                <option value="nairobi">Nairobi</option>
+                <option value="kiambu">Kiambu</option>
+                <option value="Turkana">Turana</option>
+                <option value="Mombasa">Mombasa</option>
+            </select>
+
+    </form>
+</body>
+</html>

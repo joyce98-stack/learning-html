@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arranging Divs</title>
+    <style>
+
+        *{
+            padding: 0;
+            margin:100;
+        }
+        .container-1{
+           background-color: rgb(221, 200, 81);
+           display: flex;
+           justify-content: center;
+        }
+        
+        .child-1{
+            width: 50%;
+        }
+
+
+        .container-2{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 50px 10px 50px;
+            background-color: rgb(221, 200, 81);
+            height: 400px;
+        }
+
+        .child-2{
+            width: 30%;
+            background-color: rgb(163, 247, 107);
+            padding: 10px 50px 10px 50px;
+            border-style: double;
+            border-width: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    
+<div class="container-1">
+    <div class="child-1">
+      <h2>Lorem ipsum dolor sit amet.</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatum sequi suscipit dolor magnam omnis? Nisi quasi provident cum, incidunt, magnam voluptatum, obcaecati similique ea eius esse dolore veritatis. Molestias.
+        Recusandae ratione laudantium eos ullam ipsum nihil impedit quae laborum reiciendis praesentium! Eos est magnam ad architecto, reiciendis fugit vel mollitia consectetur suscipit, aperiam atque iure eligendi ex itaque optio!</p>
+
+    </div>
+</div>
+
+<div class="container-2"> 
+    <div class="child-2">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio cupiditate nulla distinctio incidunt! Harum, ducimus quae sed excepturi molestiae alias, ipsa autem saepe repellat esse quo consequuntur magnam, natus libero.</p>
+    </div>
+    <div class="child-2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt perspiciatis, vero repellendus sequi voluptate quos voluptas quidem earum tenetur iure necessitatibus velit, placeat, deserunt eos rem ipsum facilis molestiae ex.</p>
+    </div>
+</div>
+
+
+      
+
+</body>
+</html>

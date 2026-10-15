@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST FORMS</title>
+
+    <style>
+              body{
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+              }
+       
+              form{
+              width: 50%;
+              margin:auto;
+              padding: 10px 20px 10px 20px;
+              border: 2px solid rgb(75, 76, 78);
+              background-color: beige;
+              }
+       
+              label{
+              display: block;
+              margin-bottom: 5px;  
+
+              }
+              input[type="text"],input[type="email"],input[type="tel"],input[type="date"],input[type="search"]{
+              width: 100%;
+              padding: 5px 10px 5px 10px;
+              margin-bottom: 10px;
+              
+              }
+              
+       
+              select{
+              width: 100%;
+              padding: 5px 10px 5px 10px;
+              margin-bottom: 10px;
+              }
+
+
+    </style>
+</head>
+
+     
+<body>
+    
+<form action="">
+
+      <label for="full_name">full name</label>
+      <input type="text" name="full_name" id="full_name" placeholder="Stacy Joyce">
+
+      <label for="phone_number">phone number</label>
+      <input type="tel" name="phone_number" id="phone_number" placeholder="+254 712345678">
+     
+       <label for="fruits">FRUITS</label>
+          
+      <label for="mango">Mango</label>
+      <input type="checkbox" name="mango" id="mango">
+
+      <label for="apple">Apple</label>
+      <input type="checkbox" name="apple" id="apple">
+
+      <label for="fruits">Orange</label>
+      <input type="checkbox" name="orange" id="orange"> 
+
+      <label for="country">Country</label>
+             <select name="country" id="country">
+                    <option value="Kenya">Kenya</option>
+                    <option value="USA">USA</option>
+                    <option value="France">France</option>
+                    <option value="Germany">Germany</option>
+             </select>       
+
+     
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" id="dob"  required min="2000-01-01" max="2020-12-31">
+
+
+        <label for="eamail">Email</label>
+        <input type="email" name="email" id="email">  
+        
+        <label for="comment">Comment</label>
+              <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Enter your comment here"></textarea>
+
+</form>
+       
+</body>
+</html>
