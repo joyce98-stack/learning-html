@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+
+.col{
+    width: 30%;
+    border: 1px solid rgb(162, 240, 188);
+    padding: 10px;
+}
+
+p{
+    text-align: justify;
+}
+
+/* Media Queries */
+/* medium devices-tablets */
+
+@media screen and(min-width: 768px) and (max-width: 1024px){
+    .row{
+        flex-wrap: wrap;
+    }
+    .col{
+        width: 45%;        
+        
+    }
+
+    p{
+        color: rgb(59, 182, 67);
+    }
+}
+
+    @media screen and (max-width: 767px){
+        .row{
+            flex-wrap: wrap;
+        }
+        .col{
+            width: 100%;
+        }
+    
+        p{
+            color: rgb(230, 76, 6);
+        }
+    }
+    
