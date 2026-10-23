@@ -9,20 +9,73 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.css"
         integrity="sha512-vWHsp0PuTxwRMLtGTnbS7PDNtI7yFmmiFq24hjcqpup/KK7ixxWdXwRmerG9gu7peaSRIVxpFcfBSVrGzWcF4w=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-</head>
+     <link rel="stylesheet" href="css/complete.css">
+    </head>
 
 <body>
 
+    <!-- NAVBAR -->
+   <nav class="navbar navbar-expand-sm bg-white sticky-top border-bottom">
+        <div class="container">
+            <a class="navbar-brand" href="#"> <i class="bi bi-bag-heart-fill me-2"></i>Home<span id="dark-title">Goods</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+           <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                  <a class="nav-link active" href="#">Home</a>
+              </li>
+
+              <li class="nav-item">
+                 <a class="nav-link" href="#">About</a>
+              </li>
+
+               <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+               </li>
+
+               <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+               </li>
+             </ul>
+
+             <a href="#" class="btn btn-outline-primary">
+                <i class="bi bi-cart4"></i> Cart
+             </a>
+        </div>
+        </div>
+</nav>
+
+    <!-- Header section -->
+
+    <header class="hero">
+          <div class="container border">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                     <p class=" top-title text-uppercase">Quality Home Essentials</p>
+                     <h1 class="display-4 fw-bold">Make Your Home Comfortable</h1>
+                     <p class="text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi facilis illum reiciendis nihil eligendi voluptate.
+                        <a href="#" class="btn btn-success">Shop Now <i class="bi bi-arrow-right-circle-fill ms-2" ></i></a>
+                     </p>
+
+                    </div>
+            </div>
+          </div>
+
+    </header>
+    
     <!-- MAIN -->
     <main>
-        <section class="products-section">
+        <section class="products-section py-5">
             <div class="container">
                 <div class="section-heading mb-4 border">
                     <h2 class="fw-bold">Featured Products</h2>
                     <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                 </div>
                 <div class="row g-4">
-                    <div class="col-md-3">
+                    <div class="col-sm-6 col-md-3">
                         <div class="card">
                             <img src="images/branislav-rodman-G9nkOulhhcU-unsplash.jpg" alt="" class="card-img-top">
                             <div class="card-body">
@@ -36,7 +89,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3">
+                    <div class=" col-sm-6 col-md-3">
                         <div class="card">
                             <img src="images/christopher-stites-76hIugDrhKA-unsplash.jpg" alt="" class="card-img-top">
                             <div class="card-body">
@@ -50,7 +103,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3">
+                    <div class="col-sm-6 col-md-3">
                         <div class="card">
                             <img src="images/daniel-sessler-SBKp4o2H6iM-unsplash.jpg" alt="" class="card-img-top">
                             <div class="card-body">
@@ -64,7 +117,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3">
+                    <div class="col-sm-6 col-md-3">
                         <div class="card">
                             <img src="images/branislav-rodman-G9nkOulhhcU-unsplash.jpg" alt="" class="card-img-top">
                             <div class="card-body">

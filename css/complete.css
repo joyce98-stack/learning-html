@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Honk:MORF@15&family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --brand-green: #159957;
+    --brand-dark:#1f2d3d
+    --soft-bg: #f4f8f7;
+
+}
+
+body{
+    background-color:var(--brand-dark);
+    font-family: "roboto flex", sans-serif;
+}
+
+.brand{
+    color:var(--brand-green);
+    font-size: 1.45rem;
+}
+
+#dark-title{
+    color: var(--brand-dark);
+}
+
+.brand:hover{
+    color: #04351c;
+}
+
+.nav-link{
+    color: #c96d7c;
+}
+
+.nav-link:hover, .nav-link.active{
+    color: var(--brand-green) !important;
+}
+
+.btn-success{
+    background-color: var(--brand-green) !important;
+    border-color: var(--brand-green) !important;
+    border-radius: 0;
+    transition: all 2s;
+}
+
+
+.btn-success:hover{
+    background-color: #228b22 !important;
+    border-color: #07f807 !important;
+}
+
+.hero{
+    padding: 3.5rem;
+    background: linear-gradient(900deg,rgb(193, 248, 193),rgb(229, 233, 230));
+
+}
+
+.top-title{
+    color: var(--brand-green);
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.hero h1{
+    line-height: 1.2;
+
+}
+
+.section-heading h2{
+    margin-bottom:0.4rem ;
+
+}
+
+.card{
+    border-color:beige ;
+    transition: transform 0.2s ease,box-shadow 0.2s ease;
+}
+
+.card:hover{
+    transform: translateY(-4px);
+    box-shadow: -25px -11px 7px 2px rgba(55,196,68,0.75);
+     -webkit-box-shadow: -25px -11px 7px 2px rgba(55,196,68,0.75);
+     -moz-box-shadow: -25px -11px 7px 2px rgba(55,196,68,0.75);
+}
+
+.about-section{
+    background-color: var( --soft-bg);
+}
+
+.about-section i{
+    color:var(--brand-green)
+    font: size 2.5rem;
+}
+
+
+.about-section p{
+    max-width: 600px;
+}
+
+.footer{
+    background: #5ace86;
+    color: white;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover{
+color: var(--brand-green);
+text-decoration: underline;
+
+}
+.copyright{
+    background: brown;
+}
